@@ -14,7 +14,8 @@ namespace ReflectionTraining2
         {
             foreach (var field in fields)
             {
-                page.StreamWriter.WriteLine("\t" + "public" + " " + field.FieldType + " " + field.Name + ";\n");
+                
+                page.StreamWriter.WriteLine("\t" + "public" + field.FieldType + " " + field.Name + ";\n");
             }
         } 
         

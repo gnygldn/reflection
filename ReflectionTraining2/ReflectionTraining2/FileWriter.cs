@@ -28,6 +28,11 @@ namespace ReflectionTraining2
                 {
                    EnumWriter myEnum = new EnumWriter(location,type);
                 }
+
+                else if (type.IsValueType)
+                {
+                    StructWriter myStruct = new StructWriter(location,type);
+                }
             }
         }
     }

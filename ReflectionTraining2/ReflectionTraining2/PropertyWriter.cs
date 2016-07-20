@@ -14,7 +14,7 @@ namespace ReflectionTraining2
         {
             foreach (var property in properties)
             {
-                page.StreamWriter.WriteLine("\t" + "public" + " " + property.Name + "\n" + "\t" + "{ ");
+                page.StreamWriter.WriteLine("\t" + "public" + " " + property.PropertyType + " " + property.Name + "\n" + "\t" + "{ ");
                 var accessors = property.GetAccessors();
                 foreach (var accessor in accessors)
                 {

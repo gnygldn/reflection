@@ -18,8 +18,8 @@ namespace ReflectionTraining2
             var newPage = new NewPageCreator(location + type.Name + ".cs");
             newPage.StreamWriter.WriteLine("namespace " + type.Namespace + "\n{");
 
-            string accessType = type.IsPublic ? "public class" : "class";
-            newPage.StreamWriter.WriteLine("  " + accessType + " " + type.Name + " \n{");
+            //string accessType = type.IsPublic ? "public class" : "class";
+            newPage.StreamWriter.WriteLine("public" + " " + type.FullName + " \n{");
 
             FieldWriter field = new FieldWriter();
             field.WriteField(newPage, type.GetFields());

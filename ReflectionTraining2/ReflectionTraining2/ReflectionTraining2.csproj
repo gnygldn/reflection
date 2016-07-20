@@ -50,6 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="PropertyWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
