@@ -1,0 +1,6 @@
+C:\Users\gnygl\Desktop\projects\ReflectionTraining2\ReflectionTraining2\bin\Debug\ReflectionTraining2.exe.config
+C:\Users\gnygl\Desktop\projects\ReflectionTraining2\ReflectionTraining2\bin\Debug\ReflectionTraining2.exe
+C:\Users\gnygl\Desktop\projects\ReflectionTraining2\ReflectionTraining2\bin\Debug\ReflectionTraining2.pdb
+C:\Users\gnygl\Desktop\projects\ReflectionTraining2\ReflectionTraining2\obj\Debug\ReflectionTraining2.exe
+C:\Users\gnygl\Desktop\projects\ReflectionTraining2\ReflectionTraining2\obj\Debug\ReflectionTraining2.pdb
+C:\Users\gnygl\Desktop\projects\ReflectionTraining2\ReflectionTraining2\obj\Debug\ReflectionTraining2.csprojResolveAssemblyReference.cache
